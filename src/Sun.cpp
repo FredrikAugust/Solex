@@ -118,6 +118,17 @@ void Sun::loadPlanets()
     marsData.orbitalPeriod = 59318796;//30000;
     marsData.color = Color(255, 200, 100);
     planets.push_back(Planet(marsData));
+    
+    PlanetData jupiterData;
+    jupiterData.mass = 1.8986e27; // KG
+    jupiterData.aphelion = 816520800; // KM
+    jupiterData.perihelion = 740573600; // KM
+    jupiterData.radius = 69911; // KM
+    jupiterData.orbitalPeriod = 374329939; // SEC
+    jupiterData.orbitalSpeed = 13070; // ms/s
+    jupiterData.color = Color(255,0,255); // RGB
+    jupiterData.orbitalCenter = Vector2i(0, 0); // Nooo clue
+    planets.push_back(Planet(jupiterData));
 
     // ---- Moons ----
 

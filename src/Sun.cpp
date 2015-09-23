@@ -142,13 +142,13 @@ void Sun::loadPlanets()
     moons.push_back(Planet(phobosData));
 
     PlanetData deimosData;
-    deimosData.mass = 1.4762e15;
-    deimosData.aphelion = 23471;
-    deimosData.perihelion = 23455;
-    deimosData.radius = 6;
-    deimosData.orbitalPeriod = 109123;
-    deimosData.color = Color(80, 80, 80);
-    deimosData.orbitingPlanetIndex = 3;
+    deimosData.mass = 1.4762e15; // KG
+    deimosData.aphelion = 23471; // KM
+    deimosData.perihelion = 23455; // KM
+    deimosData.radius = 6; // KM
+    deimosData.orbitalPeriod = 109123; // SEC
+    deimosData.color = Color(80, 80, 80); // RGB
+    deimosData.orbitingPlanetIndex = 3; // mercury, venus, earth, mars
     moons.push_back(Planet(deimosData));
 }
 
